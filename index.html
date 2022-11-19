@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chapter 5th </title>
+    <meta name="description" content="Size Position And Lists">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Mubashir M.Ibrahim">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1 class="main_head_chp_5">Chapter 5 <sup>th</sup> Size Position & Lists</h1>
+
+    <div class="content">
+
+        <div class="content_adjust">
+
+            <p>
+                There are more units for more describing size other than px <br>
+                There are rem , cv , vw , vh , percentages etc .
+            </p>
+
+            <h3>Whats Wrong with pixels ?</h3>
+            <p>
+                Pixels are realtive to the viewing device for a device <br>
+                with size 1920 x 180 , 1px is 1 unit out of 1080/1920 .
+            </p>
+
+            <h3>Relative Lenghts .</h3>
+
+            <p>
+                These units are realtive to the other Lenghts property<br>
+                Following Are some of the most commonly used relative lenghts.
+            </p>
+
+            <ol>
+                <li>
+                    <p>em ==> unit relative to the parent font size (My Parent Element Font Size).</p>
+                </li>
+                <li>
+                    <p>rem ==> unit relative to the root font size &lt;HTML/ &gt; Tag.</p>
+                </li>
+                <li>
+                    <p>vw ==> unit relative to 1% viewport width.</p>
+                </li>
+                <li>
+                    <p>vh ==> unit relative to 1% viewport height.</p>
+                </li>
+                <li>
+                    <p>% ==> unit relative to the parent Element.</p>
+                </li>
+            </ol>
+
+            <h3 id="heading">Min/Max height/width Property</h3>
+
+            <p>Css has a min-height max-height , min-width max-width property. <br>
+                if the content is smaller than the minimum height , minimum height will be applied. <br>
+                Similar is the case with other realted properties.</p>
+
+            <h3>The Position Property</h3>
+
+            <p>Used to manupulate the location of an element Following are the possiible values:</p>
+
+            <p> <span class="position_prop_span"> Static </span>: The Default Position top/bottom/left/right/z-index has no effect</p>
+
+            <p><span class="position_prop_span"> Relative </span> :The top/bottom/left/right/z-index will now work Otherwise the <br>
+             element is in the flow of document like static 
+            </p>
+
+            <p><span class="position_prop_span"> Absolute </span> : The Element is removed from the flow & is relatively positioned <br> to its first non-static ancestor top/bottom etc Works . 
+            </p>
+
+            <p><span class="position_prop_span"> Fixed </span> : Just Like absolute except the element is position relative to the browser window . 
+            </p>
+
+            <p><span class="position_prop_span"> Sticky </span> : The Element is position based on user's scroll position . 
+            </p>
+            <br>
+
+            <h3>The Position Property</h3>
+
+            <p>The list style property is a shorthand for type , position and Image . </p> 
+
+            <p>list-style : square inside url('cicle.jpg')</p>
+
+            <br>
+
+            <h3>Z-Index Property</h3>
+
+            <p>z-index property specifies the stack order of an element <br>
+                It defines which layer will be above which in case of overlapping elements.
+            </p>
+
+
+        </div>
+    </div>
+
+    <a href="position.html" target="_blank">
+
+        <h1 class="main_head_chp_5 position_head">Go TO : Position .HTML File </h1>
+    </a>
+
+    <a href="units.html" target="_blank">
+
+        <h1 class="main_head_chp_5">Go TO : Units .HTML File </h1>
+    </a>
+
+
+    <a href="min-max.html" target="_blank">
+
+        <h1 class="main_head_chp_5 min-max-goto-head">Go To : Min/Max Height/Widht HTML File </h1>
+    </a>
+
+
+
+    <a href="chp5PratcieSet.html" target="_blank">
+
+        <h1 class="main_head_chp_5 min-max-goto-head">Go To : Chapter 5 Practice Set </h1>
+    </a>
+
+
+</body>
+
+</html>

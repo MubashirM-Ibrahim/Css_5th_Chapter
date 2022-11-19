@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Position .HTML File</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css" integrity="sha384-Tv5i09RULyHKMwX0E8wJUqSOaXlyu3SQxORObAI08iUwIalMmN5L6AvlPX2LMoSE" crossorigin="anonymous"/>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/fontawesome.css" integrity="sha384-jLKHWM3JRmfMU0A5x5AkjWkw/EYfGUAGagvnfryNV3F9VqM98XiIH7VBGVoxVSc7" crossorigin="anonymous"/>
+    <style>
+
+        body{
+
+            height: 2222px;
+
+        }
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .position_header nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* border: 2px solid red; */
+        }
+
+        .position_header {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: black;
+            color: white;
+            height: 8vh;
+            /* border: 2px solid red; */
+            position: sticky;
+            top: 0;
+            z-index: 10;
+
+        }
+
+        .position_header ul {
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            /* border: 2px solid blue; */
+            width: 50vw;
+
+        }
+
+        .position_header li {
+            list-style-type: none;
+            font-size: 22px;
+
+        }
+
+
+
+        /* <!-- Position static : By Default Has no effect top/bottom left/right z-index --> */
+
+
+        .conatiner {
+            background-color:  rgba(255, 243, 9, 0.782);
+            width: 50%;
+            height: 50vh;
+            margin: 0px auto;
+            padding: 0px 40px;
+            /* padding: 12px; */
+        }
+
+        .conatiner p {
+            border: 2px solid red;
+        }
+
+        .box {
+            height: 50px;
+            width: 40px;
+            /* background-color: rgba(9, 255, 239, 0.782); */
+            position: relative;
+            top: -50px;
+            left: 769px;
+            bottom: -10px;    
+
+        }
+
+        .box i{
+            font-size: 30px;
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header class="position_header">
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Position static : By Default Has no effect top/bottom left/right z-index -->
+
+    <div class="conatiner">
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia voluptate nihil eveniet natus eaque cupiditate
+            unde! Provident autem olorem molestiae, ex dolore cum? Tempore est explicabo iusto eaque quod obcaecati?
+            dolorem molestiae, ex dolore cum? Tempore est explicabo iusto eaque quod obcaecati?
+        </p>
+        <div class="box">
+
+            <!-- I am a Box -->
+            <i class="fas fa-solid fa-thumbs-up"></i>
+        </div>
+    </div>
+</body>
+
+</html>
